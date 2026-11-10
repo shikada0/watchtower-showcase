@@ -1,0 +1,22 @@
+# Local and secret material — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.mq5
+*.ex5
+*.exe
+*.dll
+node_modules/
+.DS_Store
+.vscode/
+.idea/
+*.log
+dist/
+build/
+coverage/
