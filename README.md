@@ -35,15 +35,135 @@ flowchart LR
 
 More detail: [docs/architecture.md](docs/architecture.md).
 
-## Screenshots
+## Pages
 
-Omni-Scanner ranking public research candidates across the configured universe:
+Each page below is a dedicated screenshot of the live app.
 
-![Omni-Scanner](media/screenshots/omni.png)
+### Home
 
-AI-confirmed delivery queue (broker delivery needs fresh broker evidence):
+The public landing page introduces the MT5 expert advisor, the AI risk gate, and the in-house SOC/IDS, with monthly plans and a four-step setup path.
+
+![Home](media/screenshots/home.png)
+
+### Pricing
+
+The pricing page lists the Starter, Pro and Scale monthly signal allowances and how to contact the operator to set a plan up.
+
+![Pricing](media/screenshots/pricing.png)
+
+### About
+
+The about page describes Watch as research and alert software, and outlines the EA, the risk gate, and the trading SOC/IDS.
+
+![About](media/screenshots/about.png)
+
+### FAQ
+
+The FAQ answers common questions about signals, paper versus live mode, EA install, and what the scanner status labels mean.
+
+![FAQ](media/screenshots/faq.png)
+
+### Contact
+
+The contact form is how traders ask for a plan, setup help, or other support. It asks people not to send passwords or API keys.
+
+![Contact](media/screenshots/contact.png)
+
+### Sign in
+
+The sign-in page is the gate to a private workspace.
+
+![Sign in](media/screenshots/login.png)
+
+### Create account
+
+The create-account page starts a new Watch account. Plans are arranged after signup, not paid on this form.
+
+![Create account](media/screenshots/signup.png)
+
+### Privacy
+
+The privacy notice explains what account, security, and support data the service keeps and why.
+
+![Privacy](media/screenshots/privacy.png)
+
+### Terms
+
+The terms of service set out plan allowances, provider and broker responsibilities, and limits on use.
+
+![Terms](media/screenshots/terms.png)
+
+### Refunds
+
+The cancellation and refunds page explains prepaid periods, unused allowances, and consumer rights.
+
+![Refunds](media/screenshots/refunds.png)
+
+### Cookies
+
+The cookies page lists the first-party sign-in and device cookies the site uses, with no advertising cookies.
+
+![Cookies](media/screenshots/cookies.png)
+
+### Disclaimer
+
+The risk disclosure states that trading can lose money and that software and AI analysis do not guarantee returns.
+
+![Disclaimer](media/screenshots/disclaimer.png)
+
+### Reset password
+
+The reset-password page sends a reset link to the account email.
+
+![Reset password](media/screenshots/reset-password.png)
+
+### Verify email
+
+The verify-email page is the confirmation step after signup, before a bridge key can be issued.
+
+![Verify email](media/screenshots/verify-email.png)
+
+### Dashboard
+
+The account dashboard shows plan status, signal allowance, and the path into the web workspace or the full command centre.
+
+![Dashboard](media/screenshots/dashboard.png)
+
+### Omni-Scanner (web workspace)
+
+The web Omni-Scanner ranks configured symbols and labels research-only rows that are not live signals.
+
+![Omni-Scanner web workspace](media/screenshots/scanner.png)
+
+### Omni-Scanner (command centre)
+
+Omni-Scanner in the full command centre ranks public research candidates across the configured universe.
+
+![Omni-Scanner command centre](media/screenshots/omni.png)
+
+### Analysis
+
+The analysis page shows a research-only chart, indicators, and a verdict for a selected symbol.
+
+![Analysis](media/screenshots/analysis.png)
+
+### Signals
+
+The AI-confirmed delivery queue. Broker delivery needs fresh broker evidence.
 
 ![Signals queue](media/screenshots/signals.png)
+
+### Backtest
+
+The strategy backtester form, shown with default research-only settings and no run started.
+
+![Backtest](media/screenshots/backtest.png)
+
+### System
+
+The system diagnostics page reports engine health, AI and MT5 bridge status, and server version.
+
+![System](media/screenshots/system.png)
 
 ## Tech stack
 
